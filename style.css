@@ -1,5 +1,6 @@
-html {
-    margin: 0 auto;
+html, 
+body {
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
 }
@@ -25,3 +26,29 @@ html {
     border: none;
     border-radius: .5em;
 } 
+
+.left-col {
+    background-color: #5200FF;
+    color: white;
+    text-align: center;
+    position: relative;
+
+}
+
+.left-col:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(/img/phone-2.jpg);
+    background-size: cover;
+    background-position: 100%;
+    opacity: .22;
+}
+
+.content {
+    position: relative;
+}
+
