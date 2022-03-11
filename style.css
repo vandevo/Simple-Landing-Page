@@ -1,0 +1,27 @@
+html {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+.tittle {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;;
+   
+    
+}
+
+
+.sub-tittle {
+
+    
+}
+
+.btn{
+    background-color: #5200FF;
+    color: #FFFFFF;
+    padding: .8em 2em .8em 2em;
+    margin-top: 2em;
+    border: none;
+    border-radius: .5em;
+} 
